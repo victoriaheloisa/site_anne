@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar .container .navbar-brand .logo{
+    width: 100px;
+    filter: drop-shadow(5px 5px 5px rgb(97, 95, 95));
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container{
+width: 100vw;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.about{
+    width: 900px;
+}
+
+p{
+    font-size: 17px;
+    text-align: justify;
+    display: inline-block;
+}
+
+#first-let{
+    font-size: 80px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 90px;
+    margin-right: 16px;
+    background-image: linear-gradient(to bottom, #FFFFFF, rgb(216, 216, 216), #bbbbbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+#second-let{
+    font-size: 80px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 90px;
+    margin-right: 10px;
+    background-image: linear-gradient(to bottom, #FFFFFF, rgb(216, 216, 216), #bbbbbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}   
+
+#third-let{
+    font-size: 80px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 90px;
+    margin-right: 10px;
+    background-image: linear-gradient(to bottom, #FFFFFF, rgb(216, 216, 216), #bbbbbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+#fourth-let{
+    font-size: 90px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 85px;
+    margin-right: 10px;
+    background-image: linear-gradient(to bottom, #FFFFFF, rgb(216, 216, 216), #bbbbbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+#panel1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+filter: drop-shadow(5px 5px 5px rgb(82, 80, 80));
+width: auto;
+max-width: 100%;
+}
